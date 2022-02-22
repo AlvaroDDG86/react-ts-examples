@@ -1,3 +1,4 @@
+import PropsComponent from "./components/PropsComponent";
 import UseStateComponent from "./components/UseStateComponent";
 import UseEffectComponent from "./components/UseEffectComponent";
 import UseContextComponent from "./components/UseContextComponent";
@@ -13,6 +14,7 @@ function App() {
 
   return (
     <div className="App">
+      <PropsComponent />
       <h1>React + typescript</h1>
       <p>
         <a
