@@ -1,9 +1,11 @@
-import { useState } from "react";
 import UseStateComponent from "./components/UseStateComponent";
 import UseEffectComponent from "./components/UseEffectComponent";
 import UseContextComponent from "./components/UseContextComponent";
 import UseReducerComponent from "./components/UseReducerComponent";
 import UseRefComponent from "./components/UseRefComponent";
+import UseCustomHookComponent from "./components/UseCustomHookComponent";
+import UseCustomHookComponentPOST from "./components/UseCustomHookComponentPOST";
+
 
 import "./App.css";
 
@@ -43,6 +45,16 @@ function App() {
       <div>
         <h2>useRef</h2>
         <UseRefComponent />
+        <hr />
+      </div>
+      <div>
+        <h2>useCustomHook GET</h2>
+        <UseCustomHookComponent />
+        <hr />
+      </div>
+      <div>
+        <h2>useCustomHook POST</h2>
+        <UseCustomHookComponentPOST />
         <hr />
       </div>
     </div>
