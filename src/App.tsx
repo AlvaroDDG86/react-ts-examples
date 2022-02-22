@@ -2,6 +2,7 @@ import { useState } from "react";
 import UseStateComponent from "./components/UseStateComponent";
 import UseEffectComponent from "./components/UseEffectComponent";
 import UseContextComponent from "./components/UseContextComponent";
+import UseReducerComponent from "./components/UseReducerComponent";
 
 import "./App.css";
 
@@ -31,6 +32,11 @@ function App() {
       <div>
         <h2>useContext</h2>
         <UseContextComponent />
+        <hr />
+      </div>
+      <div>
+        <h2>useReducer</h2>
+        <UseReducerComponent />
         <hr />
       </div>
     </div>
